@@ -22,31 +22,7 @@ def buildCowdata(fileName,existingDf):
         existingDf = existingDf.append(newData)
 #    existingDf["Date"] = datetime.strptime(fileName.split("_")[2],"%d%m%Y")
     
-    return existingDf
-        
-# Only load files if the dataframe doesn't exist yet
-try: 
-    if cowdata.size < 1:
-        pass
-    else:
-        pass        
-        
-except (AttributeError, NameError): #cowdata does not exist yet, build it
-        dataFiles = ["LR_51663_03012018.xls", 
-                     "LR_51663_06022018.xlsx",
-                     "LR_51663_06032017.xlsx",
-                     "LR_51663_19012018.xls",
-                     "LR_51663_20022018.xlsx",
-                     "LR_51663_20032018.xls"]        
-        cowdata = None
-        for file in dataFiles:
-            path = "./data/" + file
-            cowdata = buildCowdata(path, cowdata)
-        columnNamesFi = cowdata.iloc[0,:]
-        cowdata = cowdata.iloc[1:,:] #Remove first row with Finnish column names
-        columnNamesEn = ["CowName","ProdPeriod","DaysInMilk","MilkQuantity","MilkQntyDeviation","AvgMilkQnty","Milkings","PassAvg",
-                         "KgConcentratedFoodPerKgMilk","FeedTotal","TodaysTotal","LeftoverTotal","Fat%","Protein%","FatToProteinRatio","MasticatingMinutes","AvgWeight","Cells","Date"]
-        cowdata.columns = columnNamesEn
+    return existingDf        
 
 def showBoxPlot(cowdata):
     fig = plt.figure()
@@ -79,6 +55,31 @@ def categorizeByDaysInMilk(row):
         return 250 
     if row["DaysInMilk"]>=250:
         return 300
+
+# MAIN
+# Only load files if the dataframe doesn't exist yet
+try: 
+    if cowdata.size < 1:
+        pass
+    else:
+        pass        
+        
+except (AttributeError, NameError): #cowdata does not exist yet, build it
+        dataFiles = ["LR_51663_03012018.xls", 
+                     "LR_51663_06022018.xlsx",
+                     "LR_51663_06032017.xlsx",
+                     "LR_51663_19012018.xls",
+                     "LR_51663_20022018.xlsx",
+                     "LR_51663_20032018.xls"]        
+        cowdata = None
+        for file in dataFiles:
+            path = "./data/" + file
+            cowdata = buildCowdata(path, cowdata)
+        columnNamesFi = cowdata.iloc[0,:]
+        cowdata = cowdata.iloc[1:,:] #Remove first row with Finnish column names
+        columnNamesEn = ["CowName","ProdPeriod","DaysInMilk","MilkQuantity","MilkQntyDeviation","AvgMilkQnty","Milkings","PassAvg",
+                         "KgConcentratedFoodPerKgMilk","FeedTotal","TodaysTotal","LeftoverTotal","Fat%","Protein%","FatToProteinRatio","MasticatingMinutes","AvgWeight","Cells","Date"]
+        cowdata.columns = columnNamesEn
 
 #cowdata["Under60"] = (cowdata.loc[:,"DaysInMilk"] < 60).astype(int)    
 cowdata["DIMCategory"] = cowdata.apply (lambda row: categorizeByDaysInMilk(row), axis = 1)

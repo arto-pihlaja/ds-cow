@@ -61,26 +61,27 @@ def kmeansCluster(df):
     labels = kmeans.fit_predict(df)
     return labels
 
-dr = loadData(test=True)
-#lr = loadLR()
-#dr = dr.append(lr)
-#del(lr)
-dr = dr[["KEY","Cow Code","Date","Farm","DIM","Calving No","Content fat percent",
-        "Content protein percent","Feeding forecast","Jaanos yhteensa",
-        "Lypsyja Last 24 h", #"Lyspyja avg", 
-        "Ohikulut 24 h", "Production avg", "Production change",
-        "Production today", "Production yesterday", "Syonti yhteensa", "Weight avg", "Yhteensa tanaan"]]
-
-## Transform negative numbers from problematic SAP format to normal float
-#for i in [13,17]:
-#    dr.iloc[:,i] = dr.iloc[:,i].apply( lambda r: transformNegatives(r))
-
-# Replace non-numeric values    
-for i in range(4,19):
-    dr.iloc[:,i] = replaceNanWithMean(dr.iloc[:,i])
-
-dr = setProduction(dr)
-dr = normalizeFeatures(dr)
-(dr.loc[:,["DIM", "Calving No", "Production today", "Syonti yhteensa"]]).isnull().sum()
-km = kmeansCluster(dr.loc[:,["DIM", "Calving No", "Production today", "Syonti yhteensa"]])
+def main():
+    dr = loadData(test=True)
+    #lr = loadLR()
+    #dr = dr.append(lr)
+    #del(lr)
+    dr = dr[["KEY","Cow Code","Date","Farm","DIM","Calving No","Content fat percent",
+            "Content protein percent","Feeding forecast","Jaanos yhteensa",
+            "Lypsyja Last 24 h", #"Lyspyja avg", 
+            "Ohikulut 24 h", "Production avg", "Production change",
+            "Production today", "Production yesterday", "Syonti yhteensa", "Weight avg", "Yhteensa tanaan"]]
+    
+    ## Transform negative numbers from problematic SAP format to normal float
+    #for i in [13,17]:
+    #    dr.iloc[:,i] = dr.iloc[:,i].apply( lambda r: transformNegatives(r))
+    
+    # Replace non-numeric values    
+    for i in range(4,19):
+        dr.iloc[:,i] = replaceNanWithMean(dr.iloc[:,i])
+    
+    dr = setProduction(dr)
+    dr = normalizeFeatures(dr)
+    (dr.loc[:,["DIM", "Calving No", "Production today", "Syonti yhteensa"]]).isnull().sum()
+    km = kmeansCluster(dr.loc[:,["DIM", "Calving No", "Production today", "Syonti yhteensa"]])
 

@@ -1,59 +1,59 @@
-/CowCode;CowCode;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-DATE0;Date;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-CUSTOMER;Customer number;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-RECORDMODE;BW Delta Process: Up;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZBASEPRIC;Base price;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZPRMODFAT;Price Modifier Fat;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZSUBAREA;Subsidy Area;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZFARPRLIT;Farm Price Per Liter;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZCBACTCNT;Content Bacteria Cou;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZCLACTPRC;Content Lactose Perc;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZINDAYCOW;Income Per Day Per C;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZSUBLITER;Subsidy Per Liter;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZPRMODPRO;Price Modifier Prote;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZRECUPDD;Record Update Date;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZRECSRC;Records source;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZSAMPLTYP;Sample Type;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZRECINSD;Record Insert Date;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZCOWNAME;Cow Name;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZPRICEHIG;Price High;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZDAYSMILK;Days Milking;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZAVDML7;Average daily milkin;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZAVDPRDL7;Average daily produc;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZCCLLCNT;Content Cell count;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZCFATPRC;Content fat percent;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZCFTPRTNR;Content fat per prot;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZCPRTNPRC;Content protein perc;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZCUREAPRC;Content urea percent;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZFAVPRODD;Farm average product;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZFEEDTOT;Feeding total;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZCFREEZPT;Content Freezing Poi;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZCFFA;Content FFA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZCVHBI;Content VHBI;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZCFPROTRT;Content Fat Per Prot;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZFMINTOT;Feeding minutes tota;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZFPERMLKR;Feed per milk ratio;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZFUPERCT;Feed usage percent f;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZFUPERCY;Feed usage percent f;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZLFTVRTOT;Leftover total;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZMLKL24H;Milking Last 24 hour;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZPRDCHNG;Production change;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZPRDTODAY;Production today;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZPRDYESTD;Production Yesterday;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZPSSL24H;Passess Last 24 h;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZTOTTDY;Total today;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZTPRDL365;Total production fro;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZMAXANDAT;Max Analysis date;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZADATE0;Analyis Date;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZPDATE0;Price date;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZAZCCLLCN;Last Content Cell Co;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZAZCFATPR;Last Content Fat Per;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZAZCPRTNP;Last Content Protein;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZAZCUREAP;Last Content Urea Pe;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZWGHTAVRG;Weight average;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZPRDPRD;Production period;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZPRICELOW;Price Low;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZPRICEAVG;Price Average;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZPUFCPERD;Purchased feed cost;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZWGHTADIF;Weight Average Diffe;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-/BIC/ZFEEDFORC;Feeding forecast;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+/CowCode;CowCode
+DATE0;Date
+CUSTOMER;Customer number
+RECORDMODE;BW Delta Process: Up
+/BIC/ZBASEPRIC;Base price
+/BIC/ZPRMODFAT;Price Modifier Fat
+/BIC/ZSUBAREA;Subsidy Area
+/BIC/ZFARPRLIT;Farm Price Per Liter
+/BIC/ZCBACTCNT;Content Bacteria Cou
+/BIC/ZCLACTPRC;Content Lactose Perc
+/BIC/ZINDAYCOW;Income Per Day Per C
+/BIC/ZSUBLITER;Subsidy Per Liter
+/BIC/ZPRMODPRO;Price Modifier Prote
+/BIC/ZRECUPDD;Record Update Date
+/BIC/ZRECSRC;Records source
+/BIC/ZSAMPLTYP;Sample Type
+/BIC/ZRECINSD;Record Insert Date
+/BIC/ZCOWNAME;Cow Name
+/BIC/ZPRICEHIG;Price High
+/BIC/ZDAYSMILK;Days Milking
+/BIC/ZAVDML7;Average daily milkin
+/BIC/ZAVDPRDL7;Average daily produc
+/BIC/ZCCLLCNT;Content Cell count
+/BIC/ZCFATPRC;Content fat percent
+/BIC/ZCFTPRTNR;Content fat per prot
+/BIC/ZCPRTNPRC;Content protein perc
+/BIC/ZCUREAPRC;Content urea percent
+/BIC/ZFAVPRODD;Farm average product
+/BIC/ZFEEDTOT;Feeding total
+/BIC/ZCFREEZPT;Content Freezing Poi
+/BIC/ZCFFA;Content FFA
+/BIC/ZCVHBI;Content VHBI
+/BIC/ZCFPROTRT;Content Fat Per Prot
+/BIC/ZFMINTOT;Feeding minutes tota
+/BIC/ZFPERMLKR;Feed per milk ratio
+/BIC/ZFUPERCT;Feed usage percent f
+/BIC/ZFUPERCY;Feed usage percent f
+/BIC/ZLFTVRTOT;Leftover total
+/BIC/ZMLKL24H;Milking Last 24 hour
+/BIC/ZPRDCHNG;Production change
+/BIC/ZPRDTODAY;Production today
+/BIC/ZPRDYESTD;Production Yesterday
+/BIC/ZPSSL24H;Passess Last 24 h
+/BIC/ZTOTTDY;Total today
+/BIC/ZTPRDL365;Total production fro
+/BIC/ZMAXANDAT;Max Analysis date
+/BIC/ZADATE0;Analyis Date
+/BIC/ZPDATE0;Price date
+/BIC/ZAZCCLLCN;Last Content Cell Co
+/BIC/ZAZCFATPR;Last Content Fat Per
+/BIC/ZAZCPRTNP;Last Content Protein
+/BIC/ZAZCUREAP;Last Content Urea Pe
+/BIC/ZWGHTAVRG;Weight average
+/BIC/ZPRDPRD;Production period
+/BIC/ZPRICELOW;Price Low
+/BIC/ZPRICEAVG;Price Average
+/BIC/ZPUFCPERD;Purchased feed cost
+/BIC/ZWGHTADIF;Weight Average Diffe
+/BIC/ZFEEDFORC;Feeding forecast
