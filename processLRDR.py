@@ -14,8 +14,9 @@ def loadData(test):
         nrows = 10000
     else:
         nrows = None # Load all        
-    df = pd.read_csv("..\\MilkingRobot-DR & LR files\\MilkingRobot-2.1.1-dr&DR-WithProduction-NoStrange-159k-GOOD.csv",sep=";",low_memory=False, nrows=nrows)            
-    df = df.append(pd.read_csv("..\\MilkingRobot-DR & LR files\\MilkingRobot-3.3.0-LR-NoStrange-218k-GOOD (but incomplete).csv",sep=";",low_memory=False, nrows=nrows))
+#    df = pd.read_csv("..\\MilkingRobot-DR & LR files\\MilkingRobot-2.1.1-dr&DR-WithProduction-NoStrange-159k-GOOD.csv",sep=";",low_memory=False, nrows=nrows)            
+#    df = df.append(pd.read_csv("..\\MilkingRobot-DR & LR files\\MilkingRobot-3.3.0-LR-NoStrange-218k-GOOD (but incomplete).csv",sep=";",low_memory=False, nrows=nrows))
+    df = pd.read_csv("..\\MilkingRobot-DR & LR files\\MilkingRobot-3.3.0-LR-NoStrange-218k-GOOD (but incomplete).csv",sep=";",low_memory=False, nrows=nrows)        
     return df
 
 def normalizeFeatures(df):
@@ -81,7 +82,7 @@ def main():
         dr.iloc[:,i] = replaceNanWithMean(dr.iloc[:,i])
     
     dr = setProduction(dr)
-    dr = normalizeFeatures(dr)
-    (dr.loc[:,["DIM", "Calving No", "Production today", "Syonti yhteensa"]]).isnull().sum()
-    km = kmeansCluster(dr.loc[:,["DIM", "Calving No", "Production today", "Syonti yhteensa"]])
+#    dr = normalizeFeatures(dr)
+#    (dr.loc[:,["DIM", "Calving No", "Production today", "Syonti yhteensa"]]).isnull().sum()
+#    km = kmeansCluster(dr.loc[:,["DIM", "Calving No", "Production today", "Syonti yhteensa"]])
 

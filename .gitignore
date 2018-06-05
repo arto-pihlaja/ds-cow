@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+# Bilot confidential
+confidential/
+
+#misc
+RobotAndCrmDataWithGLM.html
+Regression tests.ipynb
