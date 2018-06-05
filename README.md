@@ -1,2 +1,2 @@
 # ds-cow
-Milking project. So far, just data manipulations and simple analysis, while waiting for the real, full data
+Milking project. My part covers data manipulations and some basic analysis. More advanced models and most data are confidential and not shared.
